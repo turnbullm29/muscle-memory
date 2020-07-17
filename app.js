@@ -14,7 +14,7 @@ console.log(favoriteNumber);
 const fruits = ['apples', 'strawberry', 'mango', 'pineapple']
 console.log(fruits);
 
-const homewtown
+
 
 // 10 different functions
 //pass array
@@ -31,9 +31,7 @@ function printNewnumbers(mynumber) {
     console.log(mynumber)
 }
 
-function newNumber( [1, 2, 3]){
-   return 1+2+3; 
-}
+
 
 function secondRotation(sec) {
     let degrotation = 5 *20
@@ -59,22 +57,53 @@ console.log(sectionFour);
 //text content
 
 sectionOne.textContent = 'apple';
-sectionTwo.textContent = 'strawberry';
+sectionTwo.textContent = 'kiwi';
 sectionThree.textContent = 'mango';
 sectionFour.textContent = 'pineapple';
 
 const paraOne = document.querySelector('.paragraph');
-console.log(paraOne);
+
 paraOne.textContent = 'lemon';
 
 const paraTwo = document.querySelector('.paragraph-two');
-console.log(paraTwo);
+
 paraTwo.textContent = 'kiwi';
 
 const paraThree = document.querySelector('.paragraph-three');
-console.log(paraThree);
+
 paraThree.textContent = 'cherry';
 
 const paraFour = document.querySelector('.paragraph-four')
-console.log(paraFour);
+
 paraFour.textContent = 'coconut';
+
+const containerSix = document.createElement('div');
+containerSix.classList.add('container-Six');
+
+
+const sectionSix = document.createElement('h2');
+sectionSix.classList.add('section-six');
+
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+
+const body = document.querySelector('body');
+
+
+body.appendChild(containerSix);
+
+// container section paragraph
+
+const containerSeven = document.createElement('div');
+containerSeven.classList.add('container-seven');
+
+const sectionSeven = document.createElement('h2');
+sectionSeven.classList.add('section-seven');
+
+const paraSeven = document.createElement('p');
+paraSeven.classList.add('paragraph-seven');
+
+body.appendChild(containerSeven);
+containerSeven.appendChild(sectionSeven);
+containerSeven.appendChild(paraSeven);
