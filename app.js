@@ -107,3 +107,24 @@ paraSeven.classList.add('paragraph-seven');
 body.appendChild(containerSeven);
 containerSeven.appendChild(sectionSeven);
 containerSeven.appendChild(paraSeven);
+
+const containerEight = document.createElement('div');
+containerEight.classList.add('container-eight');
+
+const sectionEight = document.createElement('h2');
+
+sectionEight.setAttribute('id, section-eight');
+
+
+sectionEight.textContent = 'Hiii';
+
+const paraEight = document.createElement('p');
+
+paraEight.classList.add('paragraph-eight');
+
+paraEight.textContent = 'Kendrick Lamar'
+console.log(paraEight);
+
+body.appendChild(containerEight);
+containerEight.appendChild(sectionEight);
+containerEight.appendChild(paraEight);
